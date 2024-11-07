@@ -25,4 +25,4 @@ docker run \
     -v ~/.local/wechat/xwechat:/home/user/.wechat \
     -v ~/.local/wechat/xwechat_files:/home/user/xwechat_files \
     $@ \
-    "naturalselect/wechatpod:1.0.0"
+    "naturalselect/wechatpod:beta-4.0.0.30"
