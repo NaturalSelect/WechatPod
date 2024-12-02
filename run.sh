@@ -21,6 +21,7 @@ docker run \
     -e https_proxy=""\
     -v /run/user/$(id -u)/pulse:/run/user/$(id -u)/pulse \
     -v ${XDG_RUNTIME_DIR}:${XDG_RUNTIME_DIR} \
+    -v /etc/localtime:/etc/localtime:ro \
     -e PULSE_SERVER=unix:${XDG_RUNTIME_DIR}/pulse/native \
     -v ~/.local/wechat/xwechat:/home/user/.wechat \
     -v ~/.local/wechat/xwechat_files:/home/user/xwechat_files \
