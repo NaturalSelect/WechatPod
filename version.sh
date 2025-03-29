@@ -2,7 +2,7 @@
 
 if test -z ${TAG}
 then
-    TAG="beta-4.0.0.30"
+    TAG="beta-4.0.1"
 fi
 
 if test -z ${URL}
